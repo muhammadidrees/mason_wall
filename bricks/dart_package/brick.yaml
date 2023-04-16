@@ -1,0 +1,24 @@
+name: dart_package
+description: An extension on very_good_dart_package that uses flutter_lint
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.49 <0.1.0"
+
+vars:
+  project_name:
+    type: string
+    description: The package name
+    default: my_package
+    prompt: What is the project name?
+  description:
+    type: string
+    description: The package description
+    default: A very good dart package
+    prompt: What is the project description?
+  publishable:
+    type: boolean
+    description: Whether the generated package is intended to be published.
+    default: false
+    prompt: Will the package be published?

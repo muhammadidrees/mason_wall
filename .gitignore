@@ -1,2 +1,5 @@
 # mason generated file
 .mason/
+
+# ouput dir file for test purposes
+ouput/
